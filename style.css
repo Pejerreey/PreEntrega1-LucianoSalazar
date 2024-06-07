@@ -1,0 +1,121 @@
+/* Rem es relativo al tamaño de root */
+
+/* Em es relativo al tamaño que se le designa en el style*/
+
+/* por ej:
+
+html {
+
+    font-size:20px;
+} */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    position:fixed;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+body {
+    background-color: white;
+}
+
+section h4 {
+    font-family: 'Inknut Antiqua';
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 300;
+  text-align:center;
+
+}
+
+/* Todo lo que tenga que ver con footer */ 
+
+footer {
+background-color: darkgray;
+width: 100%;
+}
+
+/* Imagenes de background con texto*/ 
+
+.portada{ 
+    background-position: 100%;
+    width:100%;
+}
+
+
+.textoportada h1{
+position:absolute;
+top:40%;
+left:25%;
+text-align:center;
+font-size:4em;
+color:white;
+font-family: 'Inknut Antiqua';
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 300;
+    
+}
+
+/* Clases que estan en Index*/ 
+
+.objetivo {
+    padding:2em;
+    background-color: rgba(76, 47, 39, 1);
+    
+}
+
+.objetivo h1{
+
+    font-family: 'Inknut Antiqua';
+    font-size: 2em;
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  color:white;
+
+}
+
+/* Texto que aparece en FAQs */ 
+
+.faqs{
+    font-family: 'Inknut Antiqua';
+    font-size: 2em;
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  text-align:center;
+}
+
+.faqs li{
+    font-size: 20px;
+}
+
+.faqs li p{
+    font-size:12px;
+}
+
+/*Contacto*/ 
+
+.formulario{
+    padding-left: 25%;
+    padding-right:25%;
+    padding-top:10em;
+    padding-bottom:10em;
+}
+
+/* El mapa que esta en "La Oficina" */ 
+.mapa iframe{
+    width:100%;
+}
